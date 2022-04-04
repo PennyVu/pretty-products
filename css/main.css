@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Karma, serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6f00e7;
+}
+
+img {
+  width: 100%;
+}
+
+ol {
+  font-family: "Karma", serif;
+  line-height: 1.5;
+  font-size: 1.4rem;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+li {
+  margin: 0;
+  padding: 1rem;
+  border: 3px solid #987ffa;
+  border-radius: 6px;
+  list-style-type: none;
+}
+
+span {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+div {
+  font-family: "Oswald", sans-serif;
+  margin: 0 auto 0 0;
+  padding: .5em 1.5em .7em;
+  display: flex;
+  align-items: center;
+  border-radius: 3rem;
+  background-color: #6f00e7;
+  color: white;
+}
+
+p {
+  margin: 0;
+}
